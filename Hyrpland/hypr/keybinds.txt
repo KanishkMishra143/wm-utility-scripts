@@ -1,0 +1,75 @@
+###################
+### KEYBINDINGS ###
+###################
+
+## Launchers / Apps
+SUPER + Return            → Launch Terminal (Alacritty)
+SUPER + Shift + Return    → Launch Menu ($menu)
+SUPER + E                 → Open File Manager
+SUPER + Shift + V         → Open Clipse TUI
+ALT + TAB                 → Hyprswitch (Alt Tab Switcher)
+ALT + Shift + TAB         → Hyprswitch (Reverse)
+SUPER + Slash             → Show Keybinds Help (Alacritty popup)
+
+## Window Management
+SUPER + Q                 → Kill Active Window
+SUPER + F                 → Toggle Fullscreen (implied in other config)
+SUPER + V                 → Toggle Floating
+SUPER + P                 → Toggle Pseudo Split (Dwindle)
+SUPER + J                 → Toggle Split Orientation (Dwindle)
+SUPER + Shift + Delete    → Open Wlogout
+SUPER + Shift + ESC       → Exit Hyprland
+SUPER + Shift + A         → Toggle Swaync DND
+SUPER + TAB               → Toggle Hyprspace Overview
+
+## Screenshot
+INSERT                    → Take Region Screenshot (hyprshot)
+ALT + INSERT              → Take Window Screenshot (hyprshot)
+
+## Hyprland Tools
+SUPER + Ctrl + Shift + Alt + X  → Kill all Waybar instances
+SUPER + Ctrl + Shift + Alt + W  → Restart Waybar
+SUPER + Shift + Q    → Restart HyprSwitch
+SUPER + N                 → Open Notification Panel (Swaync)
+
+## Lock / Security
+SUPER + Shift + L         → Lock with Hyprlock
+
+## Focus Navigation
+SUPER + H / Left Arrow    → Focus Left
+SUPER + L / Right Arrow   → Focus Right
+SUPER + K / Up Arrow      → Focus Up
+SUPER + J / Down Arrow    → Focus Down
+
+## Workspace Switching
+SUPER + 1-0               → Switch to Workspace 1-10
+SUPER + Shift + 1-0       → Move Window to Workspace 1-10
+SUPER + Scroll Up/Down    → Switch Workspace Up/Down
+
+## Mouse Interactions
+SUPER + Left Click        → Move Window
+SUPER + Right Click       → Resize Window
+
+## Media Keys - Volume / Brightness
+XF86AudioRaiseVolume      → Volume Up (5%) with OSD
+XF86AudioLowerVolume      → Volume Down (5%) with OSD
+XF86AudioMute             → Toggle Audio Mute with OSD
+XF86AudioMicMute          → Toggle Mic Mute
+XF86MonBrightnessUp       → Brightness Up (10%)
+XF86MonBrightnessDown     → Brightness Down (10%)
+
+## Media Keys - Playback
+XF86AudioNext             → Next Track (playerctl)
+XF86AudioPrev             → Previous Track
+XF86AudioPlay/Pause       → Toggle Play/Pause
+
+## Wallpaper Controls (Variety)
+Ctrl + Shift + F12        → Next Wallpaper
+Ctrl + Shift + F10        → Previous Wallpaper
+
+## Notes
+- SUPER = Windows key
+- CLIPSE = Keybind TUI
+- Hyprswitch = GUI window switcher
+- Swaync = Notification daemon
+- Hyprspace = Overview plugin
